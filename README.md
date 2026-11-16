@@ -14,19 +14,19 @@ Database Schema
 
 Table students:
 
-Column &emsp;&emsp;&emsp;&emsp;Type and constraints \
-student_id &emsp;&emsp;&emsp;SERIAL, PRIMARY KEY (auto-increment)\
-first_name&emsp;&emsp;&emsp;TEXT, NOT NULL \
-last_name&emsp;&emsp;&emsp; TEXT, NOT NULL \
-email&emsp;&emsp;&emsp; &emsp;&emsp;TEXT, NOT NULL, UNIQUE \
+Column &emsp;&emsp;&emsp;&emsp;&emsp;Type and constraints \
+student_id &emsp;&emsp;&emsp;&emsp;SERIAL, PRIMARY KEY (auto-increment)\
+first_name&emsp;&emsp;&emsp;&emsp;TEXT, NOT NULL \
+last_name&emsp;&emsp;&emsp;&emsp; TEXT, NOT NULL \
+email&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;TEXT, NOT NULL, UNIQUE \
 enrollment_date &emsp;&emsp;  DATE \
 
 Initial data 
 
 first_name&emsp;	last_name	&emsp;email	   &emsp;&emsp;             enrollment_date\
-John	 &emsp; &emsp;  Doe	    &emsp;    john.doe@example.com	&emsp;&emsp;2023-09-01\
-Jane	 &emsp; &emsp;  Smith	  &emsp;  jane.smith@example.com	&emsp;&emsp;2023-09-01\
-Jim	  &emsp;  &emsp;    Beam	  &emsp;  jim.beam@example.com	&emsp;&emsp;2023-09-02\
+John	 &emsp; &emsp;  Doe	    &emsp;  &emsp;  john.doe@example.com	&emsp;&emsp;2023-09-01\
+Jane	 &emsp; &emsp;  Smith	  &emsp;  &emsp;jane.smith@example.com	&emsp;&emsp;2023-09-01\
+Jim	  &emsp;  &emsp;    Beam	  &emsp; &emsp; jim.beam@example.com	&emsp;&emsp;2023-09-02\
 
 Setup
 1. Create the database and table
