@@ -5,10 +5,10 @@ Demo Link: https://www.youtube.com/watch?v=XSTqCTGF994
 
 Repository Structure
 
-├── README.md          This file
-├── app.py             The application 
-└── database/
-    └── setup.sql      Creates the students table and inserts the initial data
+├── README.md          This file \
+├── app.py             The application \
+└── database/ \
+    └── setup.sql      Creates the students table and inserts the initial data\
 
 Database Schema
 
