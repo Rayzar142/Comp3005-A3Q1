@@ -15,11 +15,11 @@ Database Schema
 Table students:
 
 Column	     &emsp;&emsp; &emsp;&emsp;      Type and constraints \
-student_id	   &emsp; &emsp; &emsp;   SERIAL, PRIMARY KEY (auto-increment)\
-first_name	    &emsp;&emsp; &emsp;   TEXT, NOT NULL \
+student_id	   &emsp; &emsp; &emsp;  SERIAL, PRIMARY KEY (auto-increment)\
+first_name	    &emsp;&emsp; &emsp;  TEXT, NOT NULL \
 last_name	   &emsp;  &emsp;  &emsp; TEXT, NOT NULL \
-email	       &emsp;  &emsp;&emsp;   TEXT, NOT NULL, UNIQUE \
-enrollment_date	 &emsp;   DATE \
+email	       &emsp;  &emsp;&emsp; TEXT, NOT NULL, UNIQUE \
+enrollment_date	 &emsp;  DATE \
 
 Initial data 
 
