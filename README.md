@@ -19,14 +19,14 @@ student_id &emsp;&emsp;&emsp;SERIAL, PRIMARY KEY (auto-increment)\
 first_name&emsp;&emsp;&emsp;TEXT, NOT NULL \
 last_name&emsp;&emsp; TEXT, NOT NULL \
 email&emsp;&emsp;&emsp; TEXT, NOT NULL, UNIQUE \
-enrollment_date &emsp;  DATE \
+enrollment_date &emsp;&emsp;  DATE \
 
 Initial data 
 
-first_name	last_name	email	                enrollment_date
-John	    Doe	        john.doe@example.com	2023-09-01
-Jane	    Smith	    jane.smith@example.com	2023-09-01
-Jim	        Beam	    jim.beam@example.com	2023-09-02
+first_name&emsp;	last_name	&emsp;email	   &emsp;&emsp;             enrollment_date\
+John	 &emsp;   Doe	    &emsp;    john.doe@example.com	&emsp;&emsp;2023-09-01\
+Jane	 &emsp;   Smith	  &emsp;  jane.smith@example.com	&emsp;&emsp;2023-09-01\
+Jim	  &emsp;      Beam	  &emsp;  jim.beam@example.com	&emsp;&emsp;2023-09-02\
 
 Setup
 1. Create the database and table
