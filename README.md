@@ -14,12 +14,12 @@ Database Schema
 
 Table students:
 
-Column	            Type and constraints
-student_id	        SERIAL, PRIMARY KEY (auto-increment)
-first_name	        TEXT, NOT NULL
-last_name	        TEXT, NOT NULL
-email	            TEXT, NOT NULL, UNIQUE
-enrollment_date	    DATE
+Column	            Type and constraints \
+student_id	   &emsp;     SERIAL, PRIMARY KEY (auto-increment)\
+first_name	    &emsp;    TEXT, NOT NULL \
+last_name	   &emsp;     TEXT, NOT NULL \
+email	       &emsp;     TEXT, NOT NULL, UNIQUE \
+enrollment_date	   &emsp; DATE \
 
 Initial data 
 
