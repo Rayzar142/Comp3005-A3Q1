@@ -8,7 +8,7 @@ Repository Structure
 ├── README.md          This file \
 ├── app.py             The application \
 └── database/ \
-    └── setup.sql      Creates the students table and inserts the initial data\
+   &emsp; └── setup.sql      Creates the students table and inserts the initial data\
 
 Database Schema
 
